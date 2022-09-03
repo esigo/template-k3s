@@ -23,7 +23,7 @@ wget https://github.com/vmware-tanzu/octant/releases/download/v0.25.1/octant_0.2
 sudo dpkg -i ./octant_0.25.1_Linux-64bit.deb
 rm octant_0.25.1_Linux-64bit.deb
 
-/workspace/gitpod-k3s/.gitpod/prepare_helm.sh
+bash /workspace/gitpod-k3s/.gitpod/prepare_helm.sh
 sudo cp /workspace/gitpod-k3s/.gitpod/hosts /etc/hosts
 
 kubectl get pods
