@@ -1,0 +1,9 @@
+127.0.0.1       localhost
+127.0.0.1       esigo.dev.a
+127.0.0.1       esigo.dev.b
+::1     localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+fe00::0 ip6-mcastprefix
+fe00::1 ip6-allnodes
+fe00::2 ip6-allrouters
+127.0.0.1 gitpodio-templatek3s-8pt9pv3ppdq

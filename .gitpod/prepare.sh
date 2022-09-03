@@ -19,8 +19,11 @@ kubectl get pods --all-namespaces
 
 touch "${k3sreadylock}"
 
+wget https://github.com/vmware-tanzu/octant/releases/download/v0.25.1/octant_0.25.1_Linux-64bit.deb
 sudo dpkg -i ./octant_0.25.1_Linux-64bit.deb
-./get_helm.sh
-sudo cp hosts /etc/hosts
+rm octant_0.25.1_Linux-64bit.deb
+
+/workspace/gitpod-k3s/.gitpod/prepare_helm.sh
+sudo cp /workspace/gitpod-k3s/.gitpod/hosts /etc/hosts
 
 kubectl get pods
