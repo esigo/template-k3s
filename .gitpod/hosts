@@ -1,6 +1,7 @@
 127.0.0.1       localhost
 127.0.0.1       esigo.dev.a
 127.0.0.1       esigo.dev.b
+127.0.0.1       esigo.dev
 ::1     localhost ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
 fe00::0 ip6-mcastprefix
