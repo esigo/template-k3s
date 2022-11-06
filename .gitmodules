@@ -1,3 +1,6 @@
 [submodule "projects/ingress-nginx"]
 	path = projects/ingress-nginx
 	url = https://github.com/esigo/ingress-nginx.git
+[submodule "projects/nginx-example"]
+	path = projects/nginx-example
+	url = https://github.com/esigo/nginx-example.git
